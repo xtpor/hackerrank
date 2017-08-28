@@ -1,5 +1,16 @@
-# Created by https://www.gitignore.io/api/linux,macos,windows
 
+# Created by https://www.gitignore.io/api/linux,macos,elixir,windows
+
+### Elixir ###
+/_build
+/cover
+/deps
+erl_crash.dump
+*.ez
+*.beam
+
+### Elixir Patch ###
+/doc
 ### Linux ###
 *~
 
@@ -63,4 +74,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/linux,macos,windows
+# End of https://www.gitignore.io/api/linux,macos,elixir,windows
